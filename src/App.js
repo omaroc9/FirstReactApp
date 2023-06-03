@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Welcome from './welcome'
 
 function App() {
-  const names = ['Abraham', 'Isaac', 'Jacob'];
+  const names = ['Abraham', 'Isaac', 'Jacob', 'José'];
   const [show, setShow] = useState(true);
   // function renderWelcome(name) {
   //   return <h1>Hello, {name}!</h1>;
